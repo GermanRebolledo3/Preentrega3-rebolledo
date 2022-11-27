@@ -1,0 +1,340 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+.body {
+  background-color: black;
+}
+
+#navbarNav a {
+  color: white;
+  font-size: 1.4rem;
+ margin-left: 2rem;
+}
+
+
+
+footer{
+  background-color: rgb(54, 53, 53);
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 1rem;
+}
+
+footer a {
+  align-items: center;
+  justify-content: space-between;
+  font-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/*pagina 1 espesifico*/
+#contenedor-presentacion {
+  font-style: italic;
+  width: 100%;
+  color: white;
+  position: relative
+  
+}
+
+#contenedor-presentacion h2{
+  position: absolute;
+  margin-top: 13rem;
+  font-size: 3rem;
+}
+#contenedor-presentacion p{
+  margin-top: 17rem;
+  font-size: 2rem;
+  position: absolute;
+}
+
+/* catalogo */
+#body-pagina2{ display: grid;
+   
+  grid-template-areas: "nav nav nav nav"
+  "catalogo catalogo catalogo catalogo"
+  "footer footer footer footer ";
+  grid-template-columns: repeat(4, 1fr);
+ 
+  
+}
+
+.catalogo{
+    grid-area: catalogo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url( ../img/back.jpg );
+    
+    
+}
+
+
+.catalogo img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 13rem;
+    height: 13rem;
+
+}
+
+.catalogo h2{
+   font-size: small;
+   margin: 1rem;
+   width: 25%;
+}
+
+@media (max-width:1040px) {
+    .catalogo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .catalogo img {
+        margin-top: 1rem;
+    margin-left: 1rem;
+    width: 19rem;
+    height: 19rem; 
+}
+    .catalogo h2{ 
+        font-size: large;
+        margin: 1rem;
+        width: 25%;
+    }
+}
+
+@media (max-width:561px){
+    .catalogo h2{ 
+        font-size: large;
+        margin: 1rem;
+        width: 50%;
+    }
+}
+/* sobre nosotros*/
+.bk-pagina3{
+  background-image: url("../img/fondocalles.jpg");
+  height: 1111px;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+  
+ }
+
+
+.sobre-nosotros{
+
+  color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+iframe{
+  
+  border-radius: 2rem;
+ 
+}
+
+.p-titulo-nosotros{
+  font-size: 3rem;
+
+
+
+}
+
+.p-lorem-nosotros{
+  padding: 0.3rem;
+  border-radius: 12px;
+  background-color: rgba(87, 43, 43, 0.8);
+      color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+
+ 
+}
+
+.p-maps-nosotros{
+  font-size: 1.5rem;
+  
+ 
+}
+
+.p-lorem2-nosotros{
+  font-size: 1.5rem;
+  
+ 
+}
+
+@media (max-width:850px){ 
+.bk-pagina3{
+  height: 1200px;
+}
+ }
+@media ( max-width: 680px){
+  .p-titulo-nosotros {
+    font-size: 2rem;
+  }
+  .p-lorem-nosotros{
+    font-size: 1rem;
+  }
+  .p-lorem2-nosotros{
+    font-size: 1rem;
+  }
+.bk-pagina3{
+  height: 1000px;
+}
+
+}
+@media(max-width:615px){
+iframe{
+  width: 20rem;
+  height: 20rem;
+}
+.bk-pagina3{ height: 900px;}
+}
+@media(max-width:550px){
+  footer {
+    flex-direction: column;
+  }
+}
+
+
+/*  tapicerias */
+.bk-pagina4{
+  width: 100%;
+  height: 511px;
+  background-image: url("../img/representacion-3d-fondo-conexiones-red-baja-poli_1048-15440.webp");
+  background-repeat: no-repeat;
+  background-size: cov;
+}
+
+.separador_3 {
+  height: 111px;
+}
+.separador3_3 {
+  height: 100px;
+}
+.empresas{
+
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  margin-top: 5rem;
+}
+
+.empresas_titulo {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+justify-content: center;
+color: white;}
+
+.p-de-img-confort {margin-left: 50rem;
+}
+
+.img-confort {margin-left: 51rem;
+  
+}
+
+.p-de-palermo, .p-de-img-palermo{
+  margin-left: 2rem;
+}
+
+.img-palermo, .img-corti{
+  margin-left: 4rem;
+}
+
+
+@media(max-width:1000px){
+  .p-de-img-confort {margin-left: 44rem;
+  }
+  .img-confort {margin-left: 45rem;
+  
+  }
+
+}
+@media(max-width:920px){
+  .p-de-img-confort {margin-left: 35rem;
+  }
+  .img-confort {margin-left: 36rem;
+  
+  }
+
+}
+@media(max-width:780px){
+ .empresas { margin-left: 0rem;
+  align-items: center;
+  justify-content: space-between;
+
+ }
+ .empresas div{
+  margin-bottom: 4rem;
+ }
+ .p-de-img-confort {margin-left: 0rem;
+ }
+ .img-confort {margin-left: 0rem;
+ 
+ }
+ .img-corti{ margin-left: 0rem;}
+}
+
+@media(max-width:619px){
+  .empresas_titulo{
+    font-size: 1.5rem;
+  }
+}
+
+
+/*contactanos*/
+
+.bk-pagina5{
+  background-repeat: no-repeat;
+ 
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/retrato-hombre-negocios-hablando-telefono-oficina_155003-8391.webp");
+}
+.redes{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.redes p{
+  color: white;
+  margin-top: 1rem;
+  font-size: 2rem;
+ background-image: linear-gradient( rgb(119, 119, 119), rgb(27, 2, 134));
+
+}
+.redes a img{
+  width: 12rem;
+}
+.p-input{
+  align-items: center;
+  font-size: 2.5rem;
+
+}
+
+
+@media(max-width:540px){
+.redes p{
+  font-size: 1.5rem;
+}
+}
+@media(max-width:550px){
+  footer {
+    flex-direction: column;
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */

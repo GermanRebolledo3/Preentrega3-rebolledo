@@ -52,6 +52,12 @@ footer a {
   position: absolute;
 }
 
+@media (max-width:750px){#contenedor-presentacion h2{
+  font-size: 10rem
+}
+  
+}
+
 /* catalogo */
 #body-pagina2{ display: grid;
    

@@ -81,13 +81,9 @@ footer a {
  }
 
 /* catalogo */
-#body-pagina2{ display: grid;
-   
-  grid-template-areas: "nav nav nav nav"
-  "catalogo catalogo catalogo catalogo"
-  "footer footer footer footer ";
-  grid-template-columns: repeat(4, 1fr);
- 
+#body-pagina2{ 
+  background-image: url("../Img/back.jpg");
+  background-repeat: no-repeat;
   
 }
 
@@ -98,10 +94,8 @@ footer a {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url( ../img/back.jpg );
-    
-    
 }
+
 
 
 .catalogo img{
@@ -117,6 +111,8 @@ footer a {
    margin: 1rem;
    width: 25%;
 }
+
+
 
 @media (max-width:1040px) {
     .catalogo{
@@ -147,7 +143,7 @@ footer a {
 }
 /* sobre nosotros*/
 .bk-pagina3{
-  background-image: url("../img/fondocalles.jpg");
+  background-image: url("../Img/fondocalles.jpg");
   height: 1111px;
   width: 100%;
   background-repeat: no-repeat;
@@ -237,7 +233,7 @@ iframe{
 .bk-pagina4{
   width: 100%;
   height: 511px;
-  background-image: url("../img/representacion-3d-fondo-conexiones-red-baja-poli_1048-15440.webp");
+  background-image: url("../Img/representacion-3d-fondo-conexiones-red-baja-poli_1048-15440.webp");
   background-repeat: no-repeat;
   background-size: cov;
 }
@@ -327,7 +323,7 @@ color: white;}
  
   width: 100%;
   background-size: cover;
-  background-image: url("../img/retrato-hombre-negocios-hablando-telefono-oficina_155003-8391.webp");
+  background-image: url("../Img/retrato-hombre-negocios-hablando-telefono-oficina_155003-8391.webp");
 }
 .redes{
   align-items: center;

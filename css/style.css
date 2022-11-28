@@ -1,5 +1,5 @@
 
-* {
+/* * {
   margin: 0px;
   padding: 0px;
 
@@ -124,7 +124,7 @@ footer a {
         width: 50%;
     }
 }
-/* sobre nosotros*/
+/* sobre nosotros*//*
 .bk-pagina3{
   background-image: url("../img/fondocalles.jpg");
   height: 1111px;
@@ -212,7 +212,7 @@ iframe{
 }
 
 
-/*  tapicerias */
+/*  tapicerias *//*
 .bk-pagina4{
   width: 100%;
   height: 511px;
@@ -299,7 +299,7 @@ color: white;}
 }
 
 
-/*contactanos*/
+/*contactanos*//*
 
 .bk-pagina5{
   background-repeat: no-repeat;

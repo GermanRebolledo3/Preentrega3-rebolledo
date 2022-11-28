@@ -54,10 +54,31 @@ footer a {
 }
 
 @media (max-width:750px){#contenedor-presentacion h2{
-  font-size: 10rem
+  font-size: 2rem
+}
+#contenedor-presentacion p{ font-size: 1.5rem;
+
 }
   
 }
+@media (max-width:510px){ #contenedor-presentacion h2{
+  font-size: 1.7rem;
+  margin-top: 10rem;
+}
+#contenedor-presentacion p{ font-size: 1.2rem;
+  margin-top: 14rem;
+
+}
+ }
+ @media (max-width:430px){ #contenedor-presentacion h2{
+  font-size: 1.2rem;
+  margin-top: 8rem;
+}
+#contenedor-presentacion p{ font-size: 0.8rem;
+  margin-top: 10rem;
+
+}
+ }
 
 /* catalogo */
 #body-pagina2{ display: grid;
